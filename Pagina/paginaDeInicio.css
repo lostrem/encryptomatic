@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'MiFuente';
+    src: url('C:/Users/MIerf/Desktop/challenge/encrytomatic/Pagina/Fonts/fuenteTitulo/fuenteTitulo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'textoNormal';
+    src: url('C:/Users/MIerf/Desktop/challenge/encrytomatic/Pagina/Fonts/fuenteOtroTexto/fuenteTextoNormal.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#miTitulo {
+    font-family: 'MiFuente';
+    text-align: center;
+    font-size: 72px; 
+}
+
+#introText {
+    font-family: 'textoNormal'; 
+    text-align: center; 
+    font-size: 18px; 
+    margin-top: 20px; 
+}
+
+#opciones {
+    text-align: center; 
+    font-family: 'textoNormal';
+    font-size: 16px;
+    margin-top: 20px;
+    width: 500px; 
+    padding: 5px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block; 
+}
+
+
+
+#contenedorClave {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contenedorTexto {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+}
+
+#contenedorTextoAEncriptar,
+#contenedorTextoEncriptado {
+    text-align: center;
+}
+
+
+#contenedorTextoAEncriptar input,
+#contenedorTextoEncriptado input {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#textoOpcion1 {
+    font-family: 'textoNormal'; 
+    text-align: center; 
+    font-size: 18px; 
+    margin-top: 20px; 
+
+}
+
+#claveInput {
+        width: 500px; 
+        height: 200px; 
+        margin: 0 auto; 
+        display: block; 
+        margin-bottom: 10px; 
+}
+
+#textoInput{
+    width: 500px; 
+    height: 200px; 
+    margin: 0 auto; 
+    margin-bottom: 10px; 
+}
+
+#textoEncriptadoOutput{
+    width: 500px; 
+    height: 200px; 
+    margin: 0 auto; 
+    margin-bottom: 10px; 
+}
+
+#contenedorBotones {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contenedorBotones button {
+    margin: 0 10px;
+}

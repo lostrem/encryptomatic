@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>paginaDeInicio</title>
+    <link rel="stylesheet" href="paginaDeInicio.css">
+</head>
+<body>
+    <h1 id="miTitulo">Encrytomatic</h1>
+    <p id="introText">En criptografía, el cifrado es un proceso para proteger
+         la información convirtiéndola en un formato ilegible llamado texto cifrado. 
+         Esto se logra mediante el uso de una clave, que es como una contraseña especial. 
+         Solo las personas autorizadas con la clave pueden descifrar el texto cifrado y volver
+        a convertirlo en información comprensible. Este proceso ayuda a mantener la privacidad y seguridad de los datos,
+         ya que hace que sea muy difícil para personas no autorizadas acceder a la información. A lo largo del tiempo, 
+        han evolucionado diferentes técnicas de cifrado, y hoy en día se utilizan métodos avanzados que aprovechan
+        la potencia de la computación moderna para garantizar una seguridad sólida.</p>
+        <p id="introText">Esta pagina trata de recolectar algunas formas de encriptados</p>
+        <select id="opciones">
+            <option value="opcion1">Encriptacion Simetrica</option>
+            <option value="opcion2">Opción 2</option>
+            <option value="opcion3">Opción 3</option>
+        </select>
+           
+    <div id="contenedorClave">
+        <p id="textoOpcion1" style="display: none;">Digite una Clave sin espacios ni caracteres especiale,luego digite el texto a encriptar
+            y aprete en Encriptar,en cambio si quiere desencriptar,coloque la Clave y el texto encriptado y aprete en desencriptar
+        <input type="text" id="claveInput" placeholder="Clave">
+    </div>
+
+ 
+     <div id="contenedorBotones">
+        <button onclick="encriptarTexto()">Encriptar</button>
+        <button onclick="desencriptarTexto()">Desencriptar</button>
+    </div>
+
+
+
+    <div id="contenedorTexto">
+        <div>
+            <p>Texto a encriptar:</p>
+            <input type="text" id="textoInput" placeholder="Texto a encriptar">
+        </div>
+        <div>
+            <p>Texto encriptado:</p>
+            <input type="text" id="textoEncriptadoOutput" placeholder="Texto encriptado" readonly>
+        </div>
+      
+    </div>
+    
+
+    
+        <script src="script.js"></script>
+</body>
+</html>
